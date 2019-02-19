@@ -6,9 +6,17 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/hello_world_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:text="Hello World!" />
+
+    <Button
+         android:layout_below="@id/hello_world_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Simple button"/>
 
 </RelativeLayout>
